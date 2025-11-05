@@ -1,0 +1,1112 @@
+Adams View model name: BridgeCrane_SimpleCable
+!
+!-------------------------------- SYSTEM UNITS ---------------------------------
+!
+UNITS/
+, FORCE = NEWTON
+, MASS = KILOGRAM
+, LENGTH = MILLIMETER
+, TIME = SECOND
+!
+!----------------------------------- PARTS -------------------------------------
+!
+!----------------------------------- Ground ------------------------------------
+!
+!                            adams_view_name='ground'
+PART/1
+, GROUND
+!
+!                          adams_view_name='MARKER_71'
+MARKER/71
+, PART = 1
+, QP = 0, 49.79749743, 0
+, REULER = 90D, 90D, 0D
+!
+!                         adams_view_name='FMARKER_3364'
+MARKER/3364
+, PART = 1
+, FLOATING
+!
+!                         adams_view_name='FMARKER_3365'
+MARKER/3365
+, PART = 1
+, FLOATING
+!
+!                         adams_view_name='FMARKER_3366'
+MARKER/3366
+, PART = 1
+, FLOATING
+!
+!                         adams_view_name='FMARKER_3367'
+MARKER/3367
+, PART = 1
+, FLOATING
+!
+!                         adams_view_name='FMARKER_3368'
+MARKER/3368
+, PART = 1
+, FLOATING
+!
+!                         adams_view_name='FMARKER_3369'
+MARKER/3369
+, PART = 1
+, FLOATING
+!
+!                         adams_view_name='FMARKER_3372'
+MARKER/3372
+, PART = 1
+, FLOATING
+!
+!                         adams_view_name='FMARKER_3373'
+MARKER/3373
+, PART = 1
+, FLOATING
+!
+!                     adams_view_name='_Cable_Sys_1_origin_'
+MARKER/3376
+, PART = 1
+!
+!------------------------------------ Part -------------------------------------
+!
+!                            adams_view_name='PART_2'
+PART/2
+, MASS = 7677.454143
+, CM = 44
+, IP = 6.518658502E+09, 4.051021482E+09, 3.068622377E+09
+!
+!                           adams_view_name='MARKER_1'
+MARKER/1
+, PART = 2
+, QP = -1060, -300, -850
+!
+!                           adams_view_name='MARKER_2'
+MARKER/2
+, PART = 2
+, QP = -860, -300, -650
+!
+!                           adams_view_name='MARKER_3'
+MARKER/3
+, PART = 2
+, QP = 0, 300, 650
+, REULER = 0D, 180D, 0D
+!
+!                           adams_view_name='MARKER_5'
+MARKER/5
+, PART = 2
+, QP = 0, 300, 0
+!
+!                              adams_view_name='cm'
+MARKER/44
+, PART = 2
+, QP = 0, 49.79749743, 0
+, REULER = 90D, 90D, 0D
+!
+!                          adams_view_name='MARKER_70'
+MARKER/70
+, PART = 2
+, QP = 0, 49.79749743, 0
+, REULER = 90D, 90D, 0D
+!
+!                     adams_view_name='pmrk_trolley_pulley'
+MARKER/3377
+, PART = 2
+, QP = 0, 300, 0
+!
+!------------------------------------ Part -------------------------------------
+!
+!                            adams_view_name='PART_3'
+PART/3
+, MASS = 297.2368224
+, CM = 46
+, IP = 1.049008194E+07, 1.049008194E+07, 3.145954528E+06
+!
+!                           adams_view_name='MARKER_4'
+MARKER/4
+, PART = 3
+, QP = -126, -5300, -126
+!
+!                           adams_view_name='MARKER_6'
+MARKER/6
+, PART = 3
+, QP = 0, -4700, 0
+!
+!                              adams_view_name='cm'
+MARKER/46
+, PART = 3
+, QP = 0, -5060, 0
+!
+!                            adams_view_name='cm_ref'
+MARKER/3363
+, PART = 3
+, QP = 0, -5060, 0
+!
+!                       adams_view_name='pmrk_load_pulley'
+MARKER/3378
+, PART = 3
+, QP = 0, -4700, 0
+!
+!                            adams_view_name='BOX_6'
+GRAPHICS/6
+, BOX
+, CORNER = 4
+, X = 252
+, Y = 600
+, Z = 252
+!
+!------------------------------------ Part -------------------------------------
+!
+!              adams_view_name='Cable_Sys_1.trolley_pulley.pulley'
+PART/4
+, QG = 0, 300, 0
+, MASS = 4.656057919
+, CM = 3380
+, IP = 35230.1289, 18750.44774, 18675.96642
+, WZ = 0D
+!
+!                             adams_view_name='ref'
+MARKER/3379
+, PART = 4
+!
+!                              adams_view_name='cm'
+MARKER/3380
+, PART = 4
+!
+!------------------------------------ Part -------------------------------------
+!
+!                adams_view_name='Cable_Sys_1.load_pulley.pulley'
+PART/5
+, QG = 0, -4700, 0
+, MASS = 4.656057919
+, CM = 3382
+, IP = 35230.1289, 18750.44774, 18675.96642
+, WZ = 0D
+!
+!                             adams_view_name='ref'
+MARKER/3381
+, PART = 5
+!
+!                              adams_view_name='cm'
+MARKER/3382
+, PART = 5
+!
+!------------------------------------ Part -------------------------------------
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Spa_1_i'
+PART/6
+, QG = 0, 300, 0
+!
+!                           adams_view_name='_csi_1_'
+MARKER/3383
+, PART = 6
+, QP = 98, -1.665334537E-13, 0
+, REULER = 90D, 0D, 0D
+!
+!                           adams_view_name='_csi1_1_'
+MARKER/3384
+, PART = 6
+, QP = 97.97441633, -1.665334537E-13, 0
+!
+!                           adams_view_name='_csi2_1_'
+MARKER/3385
+, PART = 6
+, QP = 98, -19.89974874, 0
+, REULER = 90.073661D, 0D, 0D
+!
+!                           adams_view_name='_csi3_1_'
+MARKER/3386
+, PART = 6
+, QP = 98, -1.665334537E-13, 0
+, REULER = 270D, 0D, 0D
+!
+!                           adams_view_name='_Scm_1_i'
+MARKER/3387
+, PART = 6
+, QP = 98, -1.665334537E-13, 0
+, REULER = 90D, 90D, 180D
+!
+!                           adams_view_name='_Sim_1_i'
+MARKER/3388
+, PART = 6
+, QP = 98, -2500, 0
+, REULER = 180D, 90D, 0D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Spa_1_o'
+PART/7
+, QG = 0, 300, 0
+!
+!                           adams_view_name='_cso_1_'
+MARKER/3389
+, PART = 7
+, QP = -98, 0, 0
+, REULER = 270D, 0D, 0D
+!
+!                           adams_view_name='_cso1_1_'
+MARKER/3390
+, PART = 7
+, QP = -98, 0, 0
+, REULER = 270D, 0D, 0D
+!
+!                           adams_view_name='_cso2_1_'
+MARKER/3391
+, PART = 7
+, QP = -98, -19.89974874, 0
+, REULER = 270D, 0D, 0D
+!
+!                           adams_view_name='_Scm_1_o'
+MARKER/3392
+, PART = 7
+, QP = -98, 0, 0
+, REULER = 90D, 90D, 180D
+!
+!                           adams_view_name='_Sim_1_o'
+MARKER/3393
+, PART = 7
+, QP = -98, -2500, 0
+, REULER = 0D, 90D, 0D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Spa_2_i'
+PART/8
+, QG = 0, -4700, 0
+!
+!                           adams_view_name='_csi_2_'
+MARKER/3394
+, PART = 8
+, QP = -98, 0, 0
+, REULER = 270D, 0D, 0D
+!
+!                           adams_view_name='_csi1_2_'
+MARKER/3395
+, PART = 8
+, QP = -97.97441633, 0, 0
+!
+!                           adams_view_name='_csi2_2_'
+MARKER/3396
+, PART = 8
+, QP = -98, 19.89974874, 0
+, REULER = 270.073661D, 0D, 0D
+!
+!                           adams_view_name='_csi3_2_'
+MARKER/3397
+, PART = 8
+, QP = -98, 0, 0
+, REULER = 90D, 0D, 0D
+!
+!                           adams_view_name='_Scm_2_i'
+MARKER/3398
+, PART = 8
+, QP = -98, 0, 0
+, REULER = 270D, 90D, 180D
+!
+!                           adams_view_name='_Sim_2_i'
+MARKER/3399
+, PART = 8
+, QP = -98, 2500, 0
+, REULER = 0D, 90D, 0D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Spa_2_o'
+PART/9
+, QG = 0, -4700, 0
+!
+!                           adams_view_name='_cso_2_'
+MARKER/3400
+, PART = 9
+, QP = 98, 0, 0
+, REULER = 90D, 0D, 0D
+!
+!                           adams_view_name='_cso1_2_'
+MARKER/3401
+, PART = 9
+, QP = 98, 0, 0
+, REULER = 90D, 0D, 0D
+!
+!                           adams_view_name='_cso2_2_'
+MARKER/3402
+, PART = 9
+, QP = 98, 19.89974874, 0
+, REULER = 90D, 0D, 0D
+!
+!                           adams_view_name='_Scm_2_o'
+MARKER/3403
+, PART = 9
+, QP = 98, 0, 0
+, REULER = 270D, 90D, 180D
+!
+!                           adams_view_name='_Sim_2_o'
+MARKER/3404
+, PART = 9
+, QP = 98, 2500, 0
+, REULER = 180D, 90D, 0D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Rpa_1_o'
+PART/10
+, QG = 0, 300, 0
+!
+!                           adams_view_name='_Rcm_1_o'
+MARKER/3405
+, PART = 10
+!
+!                           adams_view_name='_Rtm_1_o'
+MARKER/3406
+, PART = 10
+, QP = -98, 0, 0
+, REULER = 90D, 90D, 180D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Tpa_1_o'
+PART/11
+, QG = -98, 300, 0
+, REULER = 270D, 0D, 0D
+, MASS = 0.0046560579
+, CM = 3407
+!
+!                           adams_view_name='_Tcm_1_o'
+MARKER/3407
+, PART = 11
+, REULER = 180D, 90D, 180D
+!
+!                           adams_view_name='_Tsm_1_o'
+MARKER/3408
+, PART = 11
+, REULER = 180D, 90D, 180D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Rpa_2_i'
+PART/12
+, QG = 0, -4700, 0
+!
+!                           adams_view_name='_Rcm_2_i'
+MARKER/3409
+, PART = 12
+!
+!                           adams_view_name='_Rtm_2_i'
+MARKER/3410
+, PART = 12
+, QP = -98, 0, 0
+, REULER = 270D, 90D, 180D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Tpa_2_i'
+PART/13
+, QG = -98, -4700, 0
+, REULER = 90D, 0D, 0D
+, MASS = 0.0046560579
+, CM = 3411
+!
+!                           adams_view_name='_Tcm_2_i'
+MARKER/3411
+, PART = 13
+, REULER = 180D, 90D, 180D
+!
+!                           adams_view_name='_Tsm_2_i'
+MARKER/3412
+, PART = 13
+, REULER = 180D, 90D, 180D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Rpa_2_o'
+PART/14
+, QG = 0, -4700, 0
+!
+!                           adams_view_name='_Rcm_2_o'
+MARKER/3413
+, PART = 14
+!
+!                           adams_view_name='_Rtm_2_o'
+MARKER/3414
+, PART = 14
+, QP = 98, 0, 0
+, REULER = 270D, 90D, 180D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Tpa_2_o'
+PART/15
+, QG = 98, -4700, 0
+, REULER = 90D, 0D, 0D
+, MASS = 0.0046560579
+, CM = 3415
+!
+!                           adams_view_name='_Tcm_2_o'
+MARKER/3415
+, PART = 15
+, REULER = 180D, 90D, 180D
+!
+!                           adams_view_name='_Tsm_2_o'
+MARKER/3416
+, PART = 15
+, REULER = 180D, 90D, 180D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Rpa_1_i'
+PART/16
+, QG = 0, 300, 0
+!
+!                           adams_view_name='_Rcm_1_i'
+MARKER/3417
+, PART = 16
+!
+!                           adams_view_name='_Rtm_1_i'
+MARKER/3418
+, PART = 16
+, QP = 98, -1.665334537E-13, 0
+, REULER = 90D, 90D, 180D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Tpa_1_i'
+PART/17
+, QG = 98, 300, 0
+, REULER = 270D, 0D, 0D
+, MASS = 0.0046560579
+, CM = 3419
+!
+!                           adams_view_name='_Tcm_1_i'
+MARKER/3419
+, PART = 17
+, REULER = 180D, 90D, 180D
+!
+!                           adams_view_name='_Tsm_1_i'
+MARKER/3420
+, PART = 17
+, REULER = 180D, 90D, 180D
+!
+!------------------------------------ Part -------------------------------------
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Fpa_1_'
+PART/18
+, QG = 0, 300, 0
+, MASS = 0.0046560579
+, CM = 3421
+, IP = 9.337983208, 9.337983208, 18.67596642
+, WZ = 0D
+!
+!                         adams_view_name='FMARKER_3370'
+MARKER/3370
+, PART = 18
+, FLOATING
+!
+!                         adams_view_name='FMARKER_3375'
+MARKER/3375
+, PART = 18
+, FLOATING
+!
+!                           adams_view_name='_Fcm_1_'
+MARKER/3421
+, PART = 18
+!
+!------------------------------------ Part -------------------------------------
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Fpa_2_'
+PART/19
+, QG = 0, -4700, 0
+, MASS = 0.0046560579
+, CM = 3422
+, IP = 9.337983208, 9.337983208, 18.67596642
+, WZ = 0D
+!
+!                         adams_view_name='FMARKER_3371'
+MARKER/3371
+, PART = 19
+, FLOATING
+!
+!                         adams_view_name='FMARKER_3374'
+MARKER/3374
+, PART = 19
+, FLOATING
+!
+!                           adams_view_name='_Fcm_2_'
+MARKER/3422
+, PART = 19
+!
+!------------------------------ DYNAMIC GRAPHICS -------------------------------
+!
+!               adams_view_name='Cable_Sys_1.trolley_pulley.fix_g'
+!GRAPHICS/7
+!, FORCE
+!, ETYPE = JOINT
+!, EID = 25
+!, EMARKER = 3379
+!
+!               adams_view_name='Cable_Sys_1.trolley_pulley.rev_g'
+GRAPHICS/8
+, FORCE
+, ETYPE = JOINT
+, EID = 26
+, EMARKER = 3379
+!
+!               adams_view_name='Cable_Sys_1.trolley_pulley.cyl_g'
+!GRAPHICS/9
+!, FORCE
+!, ETYPE = JOINT
+!, EID = 27
+!, EMARKER = 3379
+!
+!                adams_view_name='Cable_Sys_1.load_pulley.fix_g'
+!GRAPHICS/10
+!, FORCE
+!, ETYPE = JOINT
+!, EID = 28
+!, EMARKER = 3381
+!
+!                adams_view_name='Cable_Sys_1.load_pulley.rev_g'
+GRAPHICS/11
+, FORCE
+, ETYPE = JOINT
+, EID = 29
+, EMARKER = 3381
+!
+!                adams_view_name='Cable_Sys_1.load_pulley.cyl_g'
+!GRAPHICS/12
+!, FORCE
+!, ETYPE = JOINT
+!, EID = 30
+!, EMARKER = 3381
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Fgr_1_i'
+GRAPHICS/13
+, FORCE
+, ETYPE = SFORCE
+, EID = 1
+, EMARKER = 3394
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Fgr_1_o'
+GRAPHICS/14
+, FORCE
+, ETYPE = SFORCE
+, EID = 1
+, EMARKER = 3389
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Fgr_2_i'
+GRAPHICS/15
+, FORCE
+, ETYPE = SFORCE
+, EID = 2
+, EMARKER = 3383
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Fgr_2_o'
+GRAPHICS/16
+, FORCE
+, ETYPE = SFORCE
+, EID = 2
+, EMARKER = 3400
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Ogr_1_'
+GRAPHICS/21
+, SPDP
+, I = 3389
+, J = 3394
+, COILS = 850
+, DA = 16
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Ogr_2_'
+GRAPHICS/22
+, SPDP
+, I = 3400
+, J = 3383
+, COILS = 850
+, DA = 16
+!
+!-------------------------------- CONSTRAINTS ----------------------------------
+!
+!                           adams_view_name='JOINT_24'
+JOINT/24
+, TRANSLATIONAL
+, I = 70
+, J = 71
+!
+!                adams_view_name='Cable_Sys_1.trolley_pulley.fix'
+!JOINT/25
+!, FIXED
+!, I = 3379
+!, J = 3377
+!
+!                adams_view_name='Cable_Sys_1.trolley_pulley.rev'
+JOINT/26
+, REVOLUTE
+, I = 3379
+, J = 3377
+!
+!                adams_view_name='Cable_Sys_1.trolley_pulley.cyl'
+!JOINT/27
+!, CYLINDRICAL
+!, I = 3379
+!, J = 3377
+!
+!                 adams_view_name='Cable_Sys_1.load_pulley.fix'
+!JOINT/28
+!, FIXED
+!, I = 3381
+!, J = 3378
+!
+!                 adams_view_name='Cable_Sys_1.load_pulley.rev'
+JOINT/29
+, REVOLUTE
+, I = 3381
+, J = 3378
+!
+!                 adams_view_name='Cable_Sys_1.load_pulley.cyl'
+!JOINT/30
+!, CYLINDRICAL
+!, I = 3381
+!, J = 3378
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Rjo_1_o'
+JOINT/31
+, REVOLUTE
+, I = 3405
+, J = 3379
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Tjo_1_o'
+JOINT/32
+, TRANSLATIONAL
+, I = 3407
+, J = 3406
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Sjo_1_o'
+JOINT/33
+, REVOLUTE
+, I = 3392
+, J = 3408
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Rjo_2_i'
+JOINT/34
+, REVOLUTE
+, I = 3409
+, J = 3381
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Tjo_2_i'
+JOINT/35
+, TRANSLATIONAL
+, I = 3411
+, J = 3410
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Sjo_2_i'
+JOINT/36
+, REVOLUTE
+, I = 3398
+, J = 3412
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Rjo_2_o'
+JOINT/37
+, REVOLUTE
+, I = 3413
+, J = 3381
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Tjo_2_o'
+JOINT/38
+, TRANSLATIONAL
+, I = 3415
+, J = 3414
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Sjo_2_o'
+JOINT/39
+, REVOLUTE
+, I = 3403
+, J = 3416
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Rjo_1_i'
+JOINT/40
+, REVOLUTE
+, I = 3417
+, J = 3379
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Tjo_1_i'
+JOINT/41
+, TRANSLATIONAL
+, I = 3419
+, J = 3418
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Sjo_1_i'
+JOINT/42
+, REVOLUTE
+, I = 3387
+, J = 3420
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Ijo_1_'
+JOINT/43
+, CYLINDRICAL
+, I = 3399
+, J = 3393
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Ijo_2_'
+JOINT/44
+, CYLINDRICAL
+, I = 3388
+, J = 3404
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Fjo_1_'
+JOINT/45
+, REVOLUTE
+, I = 3421
+, J = 3379
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Fjo_2_'
+JOINT/46
+, REVOLUTE
+, I = 3422
+, J = 3381
+!
+!                           adams_view_name='MOTION_1'
+MOTION/1
+, TRANSLATIONAL
+, VELOCITY
+, JOINT = 24
+, FUNCTION = VARVAL(1)
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Tmo_1_o'
+!MOTION/2
+!, TRANSLATIONAL
+!, JOINT = 32
+!, FUNCTION = 0
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Tmo_2_i'
+!MOTION/3
+!, TRANSLATIONAL
+!, JOINT = 35
+!, FUNCTION = 0
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Tmo_2_o'
+!MOTION/4
+!, TRANSLATIONAL
+!, JOINT = 38
+!, FUNCTION = 0
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Tmo_1_i'
+!MOTION/5
+!, TRANSLATIONAL
+!, JOINT = 41
+!, FUNCTION = 0
+!
+!----------------------------------- FORCES ------------------------------------
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Spr_1_'
+SFORCE/1
+, TRANSLATIONAL
+, I = 3394
+, J = 3389
+, FUNCTION =
+, BISTOP( VARVAL(3) , VARVAL(4) ,-1, MAX(0,DIF(5)+0) , 6.8373258507E+05 * 29.4060703966/DM(3394,3389) ,1, 1.0E-02*6.8373258507E+05 * 29.4060703966**0.5/DM(3394,3389)**0.5 , 29.4060703966/1E3 )
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Spr_2_'
+SFORCE/2
+, TRANSLATIONAL
+, I = 3383
+, J = 3400
+, FUNCTION =
+, BISTOP( VARVAL(5) , VARVAL(6) ,-1, MAX(0,DIF(6)+0) , 6.8373258507E+05 * 29.4060703966/DM(3383,3400) ,1, 1.0E-02*6.8373258507E+05 * 29.4060703966**0.5/DM(3383,3400)**0.5 , 29.4060703966/1E3 )
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Fto_1_'
+SFORCE/3
+, ROTATIONAL
+, I = 3421
+, J = 3379
+, FUNCTION =
+, ABS(0.6*(200.0/2-10.0)*(SFORCE(2,0,1,0)+SFORCE(1,1,1,0))/2*DIF(1))*STEP(WZ(3421,3379,3379),-100.0/97.9744163314,1,100.0/97.9744163314,-1)
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Fto_2_'
+SFORCE/4
+, ROTATIONAL
+, I = 3422
+, J = 3381
+, FUNCTION =
+, ABS(0.6*(200.0/2-10.0)*(SFORCE(1,0,1,0)+SFORCE(2,1,1,0))/2*DIF(3))*STEP(WZ(3422,3381,3381),-100.0/97.9744163314,1,100.0/97.9744163314,-1)
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Vfd_1_o'
+VFORCE/1
+, I = 3389
+, JFLOAT = 3364
+, RM = 3389
+, FX = 0\
+, FY =
+, - 6.8373258507E+05 * 29.4060703966/DM(3394,3389) * (DY(3389,3379,3389) - (-1 * STEP5( DIF(1) ,-0.01d,ABS( DY(3400,3379,3389) ),0,97.9744163314 ))) - 0.01*1.0E-02*6.8373258507E+05 * 29.4060703966**0.5/DM(3394,3389)**0.5 * VY(3389,3379,3389)\
+, FZ = 0
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Vfd_1_i'
+VFORCE/2
+, I = 3383
+, JFLOAT = 3365
+, RM = 3383
+, FX = 0\
+, FY =
+, - 6.8373258507E+05 * 29.4060703966/DM(3383,3400) * (DY(3383,3379,3383) - (-1 * STEP5( DIF(1) ,-0.01d,ABS( DY(3394,3379,3383) ),0,97.9744163314 ))) - 0.01*1.0E-02*6.8373258507E+05 * 29.4060703966**0.5/DM(3383,3400)**0.5 * VY(3383,3379,3383)\
+, FZ = 0
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Vfd_2_o'
+VFORCE/3
+, I = 3400
+, JFLOAT = 3366
+, RM = 3400
+, FX = 0\
+, FY =
+, - 6.8373258507E+05 * 29.4060703966/DM(3383,3400) * (DY(3400,3381,3400) - (-1 * STEP5( DIF(3) ,-0.01d,ABS( DY(3389,3381,3400) ),0,97.9744163314 ))) - 0.01*1.0E-02*6.8373258507E+05 * 29.4060703966**0.5/DM(3383,3400)**0.5 * VY(3400,3381,3400)\
+, FZ = 0
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Vfd_2_i'
+VFORCE/4
+, I = 3394
+, JFLOAT = 3367
+, RM = 3394
+, FX = 0\
+, FY =
+, - 6.8373258507E+05 * 29.4060703966/DM(3394,3389) * (DY(3394,3381,3394) - (-1 * STEP5( DIF(3) ,-0.01d,ABS( DY(3383,3381,3394) ),0,97.9744163314 ))) - 0.01*1.0E-02*6.8373258507E+05 * 29.4060703966**0.5/DM(3394,3389)**0.5 * VY(3394,3381,3394)\
+, FZ = 0
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Gvf_1_'
+VFORCE/5
+, I = 3421
+, JFLOAT = 3368
+, RM = 3376
+, FX = 0.0 * 1.2182E-05*201.0619298297*( DIF(2) + DIF(5) + DIF(6) ) * 1.0E-03\
+, FY =
+, -9806.65 * 1.2182E-05*201.0619298297*( DIF(2) + DIF(5) + DIF(6) ) * 1.0E-03\
+, FZ = 0.0 * 1.2182E-05*201.0619298297*( DIF(2) + DIF(5) + DIF(6) ) * 1.0E-03
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Vfo_1_o'
+VFORCE/6
+, I = 3389
+, JFLOAT = 3370
+, RM = 3389
+, FX = - SFORCE(1,1,2,3389)\
+, FY = - SFORCE(1,1,3,3389)\
+, FZ = - SFORCE(1,1,4,3389)
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Vfi_2_i'
+VFORCE/7
+, I = 3394
+, JFLOAT = 3371
+, RM = 3394
+, FX = - SFORCE(1,0,2,3394)\
+, FY = - SFORCE(1,0,3,3394)\
+, FZ = - SFORCE(1,0,4,3394)
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Gvf_2_'
+VFORCE/8
+, I = 3422
+, JFLOAT = 3372
+, RM = 3376
+, FX = 0.0 * 1.2182E-05*201.0619298297*( DIF(4) + DIF(6) + DIF(5) ) * 1.0E-03\
+, FY =
+, -9806.65 * 1.2182E-05*201.0619298297*( DIF(4) + DIF(6) + DIF(5) ) * 1.0E-03\
+, FZ = 0.0 * 1.2182E-05*201.0619298297*( DIF(4) + DIF(6) + DIF(5) ) * 1.0E-03
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Vfo_2_o'
+VFORCE/9
+, I = 3400
+, JFLOAT = 3374
+, RM = 3400
+, FX = - SFORCE(2,1,2,3400)\
+, FY = - SFORCE(2,1,3,3400)\
+, FZ = - SFORCE(2,1,4,3400)
+!
+!                 adams_view_name='Cable_Sys_1.cable1._Vfi_1_i'
+VFORCE/10
+, I = 3383
+, JFLOAT = 3375
+, RM = 3383
+, FX = - SFORCE(2,0,2,3383)\
+, FY = - SFORCE(2,0,3,3383)\
+, FZ = - SFORCE(2,0,4,3383)
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Igf_1_'
+GFORCE/1
+, I = 3421
+, JFLOAT = 3369
+, RM = 3379
+, FX =
+, - ACCX(3421,0,3379) * 1.2182E-05*201.0619298297*( DIF(2) + DIF(5) + DIF(6) ) * 1.0E-03\
+, FY =
+, - ACCY(3421,0,3379) * 1.2182E-05*201.0619298297*( DIF(2) + DIF(5) + DIF(6) ) * 1.0E-03\
+, FZ =
+, - ACCZ(3421,0,3379) * 1.2182E-05*201.0619298297*( DIF(2) + DIF(5) + DIF(6) ) * 1.0E-03\
+, TX =
+, - WDTX(3421,0,3379) * 1.2182E-05*201.0619298297*( DIF(2) + DIF(5) + DIF(6) )*97.9744163314**2 * 1.745329252E-05\
+, TY =
+, - WDTY(3421,0,3379) * 1.2182E-05*201.0619298297*( DIF(2) + DIF(5) + DIF(6) )*97.9744163314**2 * 1.745329252E-05\
+, TZ =
+, - WDTZ(3421,0,3379) * 1.2182E-05*201.0619298297*( DIF(2) + DIF(5) + DIF(6) )*97.9744163314**2 * 1.745329252E-05
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Igf_2_'
+GFORCE/2
+, I = 3422
+, JFLOAT = 3373
+, RM = 3381
+, FX =
+, - ACCX(3422,0,3381) * 1.2182E-05*201.0619298297*( DIF(4) + DIF(6) + DIF(5) ) * 1.0E-03\
+, FY =
+, - ACCY(3422,0,3381) * 1.2182E-05*201.0619298297*( DIF(4) + DIF(6) + DIF(5) ) * 1.0E-03\
+, FZ =
+, - ACCZ(3422,0,3381) * 1.2182E-05*201.0619298297*( DIF(4) + DIF(6) + DIF(5) ) * 1.0E-03\
+, TX =
+, - WDTX(3422,0,3381) * 1.2182E-05*201.0619298297*( DIF(4) + DIF(6) + DIF(5) )*97.9744163314**2 * 1.745329252E-05\
+, TY =
+, - WDTY(3422,0,3381) * 1.2182E-05*201.0619298297*( DIF(4) + DIF(6) + DIF(5) )*97.9744163314**2 * 1.745329252E-05\
+, TZ =
+, - WDTZ(3422,0,3381) * 1.2182E-05*201.0619298297*( DIF(4) + DIF(6) + DIF(5) )*97.9744163314**2 * 1.745329252E-05
+!
+!------------------------------ DATA STRUCTURES --------------------------------
+!
+!                          adams_view_name='Input_Vel'
+VARIABLE/1
+, IC = 0
+, FUNCTION = 0
+!
+!                          adams_view_name='Sway_Angle'
+VARIABLE/2
+, IC = 0
+, FUNCTION = PSI(3363,5)
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Sdm_1_'
+VARIABLE/3
+, FUNCTION = DM(3394,3389)
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Svr_1_'
+VARIABLE/4
+, FUNCTION = VR(3394,3389)-DIF1(5)-0
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Sdm_2_'
+VARIABLE/5
+, FUNCTION = DM(3383,3400)
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Svr_2_'
+VARIABLE/6
+, FUNCTION = VR(3383,3400)-DIF1(6)-0
+!
+!                   adams_view_name='Cable_Sys_1.pulley1.data'
+ARRAY/1
+, IC
+, SIZE = 9
+, NUMBERS = 50, 10, 10, 20, 10000, 1, 0.1, 0.6, 100
+!
+!                   adams_view_name='Cable_Sys_1.cable1.data'
+ARRAY/2
+, IC
+, SIZE = 9
+, NUMBERS = 16, 1.2182E-05, 1.0E+05, 1, 1.0E-04, 0.001, 0.01, 0, 852.6
+!
+!                 adams_view_name='Controls_Plant_1.ctrl_pinput'
+PINPUT/1
+, VARIABLES = 1
+!
+!                adams_view_name='Controls_Plant_1.ctrl_poutput'
+POUTPUT/1
+, VARIABLES = 2
+!
+!--------------------------------- EQUATIONS -----------------------------------
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Ang_1_'
+DIFF/1
+, IC = 3.141592654
+, FUNCTION = WZ(3405,3417,3379)
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Wra_1_'
+DIFF/2
+, IC = 307.7826544
+, FUNCTION = IF( DIF(1) : 0,1,1 ) * 97.9744163314 * DIF1(1)
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Ang_2_'
+DIFF/3
+, IC = 3.141592654
+, FUNCTION = WZ(3413,3409,3381)
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Wra_2_'
+DIFF/4
+, IC = 307.7826544
+, FUNCTION = IF( DIF(3) : 0,1,1 ) * 97.9744163314 * DIF1(3)
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Spa_1_'
+DIFF/5
+, IC = 4999.787973
+, FUNCTION =
+,   WZ(3421,3405,3405) * 97.9744163314 - WZ(3422,3409,3409) * 97.9744163314
+!
+!                  adams_view_name='Cable_Sys_1.cable1._Spa_2_'
+DIFF/6
+, IC = 4999.787973
+, FUNCTION =
+,   WZ(3422,3413,3413) * 97.9744163314 - WZ(3421,3417,3417) * 97.9744163314
+!
+!----------------------------------- OUTPUT ------------------------------------
+!
+!     adams_view_name='Cable_Sys_1.cable1._01_Pulley_Forces_trolley_pulley'
+REQUEST/1
+, FORCE
+, I = 3379
+, J = 3377
+, RM = 3377
+, RESULTS_NAME = _01_Pulley_Forces_trolley_pulley
+!
+!     adams_view_name='Cable_Sys_1.cable1._01_Pulley_Motion_trolley_pulley'
+REQUEST/2
+, CUNITS = "length", "velocity", "angle", "angular_velocity"
+, CNAMES = "Pulley_DZ", "Pulley_VZ", "Pulley_AZ", "Pulley_WZ"
+, RESULTS_NAME = _01_Pulley_Motion_trolley_pulley
+, F1 = DZ(3379,0,3379)\
+, F2 = VZ(3379,0,3379)\
+, F3 = AZ(3379,0)\
+, F4 = WZ(3379,0,3379)
+!
+!      adams_view_name='Cable_Sys_1.cable1._01_Pulley_Data_trolley_pulley'
+REQUEST/3
+, CUNITS = "angle", "length", "velocity", "velocity", "force"
+, CNAMES = "Wrapped_Angle", "Wrapped_Length", "Cable_VX", "Sliding_VX"
+, "Contact_Density"
+, RESULTS_NAME = _01_Pulley_Data_trolley_pulley
+, F1 = DIF(2) / 97.9744163314\
+, F2 = DIF(2)\
+, F3 = 97.9744163314 * WZ(3421,0,3421)\
+, F4 = 97.9744163314 * WZ(3421,3379,3379)\
+, F5 = IF(DIF(2):0,0,(SFORCE(2,0,1,0)+SFORCE(1,0,1,0))*.5/97.9744163314)
+!
+!               adams_view_name='Cable_Sys_1.cable1._01_Span_Data'
+REQUEST/4
+, CUNITS = "length", "length", "length", "force"
+, CNAMES = "Span_Length", "Span_DY", "Span_DZ", "Span_Tension"
+, RESULTS_NAME = _01_Span_Data
+, F1 = DIF(5) + 0\
+, F2 = 0\
+, F3 = 0\
+, F4 = SFORCE(1,0,1,0)
+!
+!------------------------- GRAVITATIONAL ACCELERATION --------------------------
+!
+ACCGRAV/
+, JGRAV = -9806.65
+!
+!----------------------------- ANALYSIS SETTINGS -------------------------------
+!
+INTEGRATOR/
+, GSTIFF
+, MAXIT = 50
+, HINIT = 1.0E-06
+, INTERPOLATE = OFF
+, CORRECTOR = MODIFIED
+!
+EQUILIBRIUM/
+, MAXIT = 100
+, STABILITY = 0.5
+, TLIMIT = 8
+!
+IC/
+, ERROR = 1.0E-08
+!
+OUTPUT/
+, REQSAVE
+, GRSAVE
+!
+RESULTS/
+, XRF
+!
+END
