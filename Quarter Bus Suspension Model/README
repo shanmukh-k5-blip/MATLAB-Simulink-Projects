@@ -6,7 +6,7 @@ Problem Statement:
 Requirements:
 
             1. The Response must damp down within 5 secs of crossing speed bump.
-            2. +/- 5% of Overshoot is allowed.
+            2. only +/- 5% of Overshoot is allowed. i.e: (+/- 5 mm)
 
 
 Vehicle Specifications:
