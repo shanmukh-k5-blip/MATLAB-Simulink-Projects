@@ -1,0 +1,21 @@
+Problem Statement:
+
+            To Actively Control the vertical response of a Bus using an Actuator controlled by PID when the Bus goes over a Speed bump or a Step on road of 10 cm.
+            
+
+Requirements:
+
+            1. The Response must damp down within 5 secs of crossing speed bump.
+            2. +/- 5% of Overshoot is allowed.
+
+
+Vehicle Specifications:
+
+(M1)    1/4 bus body mass                        2500 kg
+(M2)    suspension mass                          320 kg
+(K1)    spring constant of suspension system     80,000 N/m
+(K2)    spring constant of wheel and tire        500,000 N/m
+(b1)    damping constant of suspension system    350 N.s/m
+(b2)    damping constant of wheel and tire       15,020 N.s/m
+
+
