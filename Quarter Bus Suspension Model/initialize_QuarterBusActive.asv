@@ -1,0 +1,21 @@
+% initializing Active Suspension
+
+
+m1 = 2500;          % in Kg
+m2 = 320;           % in Kg
+b1 = 350;           % in Ns/m
+b2 = 15020;         % in Ns/m
+k1 = 80000;         % in N/m
+k2 = 500000;        % in N/m
+
+SP = 0;             % Setpoint for desired sprung mass motion
+
+% {road profile
+
+
+W(S) -> sine wave road profile
+
+y = sin(2*pi*f*t)
+
+
+%}
